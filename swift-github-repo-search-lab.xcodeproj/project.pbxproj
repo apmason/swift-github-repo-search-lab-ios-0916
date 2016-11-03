@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B15A1391DC29F9D00B15C9F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15A1381DC29F9D00B15C9F /* Secrets.swift */; };
 		1B15A13D1DC2A09900B15C9F /* not_starred.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B15A13B1DC2A09900B15C9F /* not_starred.json */; };
 		1B15A13E1DC2A09900B15C9F /* repositories.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B15A13C1DC2A09900B15C9F /* repositories.json */; };
 		1BF884A81DBE950C001E9E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF884A71DBE950C001E9E9B /* AppDelegate.swift */; };
 		1BF884AA1DBE950C001E9E9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF884A91DBE950C001E9E9B /* ViewController.swift */; };
 		1BF884AF1DBE950C001E9E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF884AE1DBE950C001E9E9B /* Assets.xcassets */; };
 		1BF884B21DBE950C001E9E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF884B01DBE950C001E9E9B /* LaunchScreen.storyboard */; };
+		C3CD5AD31DC8D27F00F425AC /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD5AD21DC8D27F00F425AC /* Secrets.swift */; };
+		C3CD5AD51DC8D28900F425AC /* GithubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD5AD41DC8D28900F425AC /* GithubAPIClient.swift */; };
+		C3CD5AD71DC8D29900F425AC /* ReposDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD5AD61DC8D29900F425AC /* ReposDataStore.swift */; };
+		C3CD5AD91DC8D2A200F425AC /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD5AD81DC8D2A200F425AC /* ReposTableViewController.swift */; };
+		C3CD5ADB1DC8D2B900F425AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CD5ADA1DC8D2B900F425AC /* Main.storyboard */; };
+		C3CD5ADD1DC8D2EA00F425AC /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD5ADC1DC8D2EA00F425AC /* GithubRepository.swift */; };
 		FDE5A2D855483A3DBDB88CB6 /* Pods_swift_github_repo_search_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB903D33600997305EE0760B /* Pods_swift_github_repo_search_lab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06179FC97D4CCA9AF9531AF7 /* Pods-swift-github-repo-search-lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-github-repo-search-lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-github-repo-search-lab/Pods-swift-github-repo-search-lab.debug.xcconfig"; sourceTree = "<group>"; };
-		1B15A1381DC29F9D00B15C9F /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		1B15A13B1DC2A09900B15C9F /* not_starred.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = not_starred.json; sourceTree = "<group>"; };
 		1B15A13C1DC2A09900B15C9F /* repositories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repositories.json; sourceTree = "<group>"; };
 		1BF884A41DBE950C001E9E9B /* swift-github-repo-search-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-github-repo-search-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +33,12 @@
 		1BF884B11DBE950C001E9E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF884B31DBE950C001E9E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA7C84CC2EF21A27A02CA364 /* Pods-swift-github-repo-search-lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-github-repo-search-lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-github-repo-search-lab/Pods-swift-github-repo-search-lab.release.xcconfig"; sourceTree = "<group>"; };
+		C3CD5AD21DC8D27F00F425AC /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		C3CD5AD41DC8D28900F425AC /* GithubAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIClient.swift; sourceTree = "<group>"; };
+		C3CD5AD61DC8D29900F425AC /* ReposDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposDataStore.swift; sourceTree = "<group>"; };
+		C3CD5AD81DC8D2A200F425AC /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
+		C3CD5ADA1DC8D2B900F425AC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C3CD5ADC1DC8D2EA00F425AC /* GithubRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRepository.swift; sourceTree = "<group>"; };
 		EB903D33600997305EE0760B /* Pods_swift_github_repo_search_lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_github_repo_search_lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,7 +97,12 @@
 			children = (
 				1BF884A71DBE950C001E9E9B /* AppDelegate.swift */,
 				1BF884A91DBE950C001E9E9B /* ViewController.swift */,
-				1B15A1381DC29F9D00B15C9F /* Secrets.swift */,
+				C3CD5AD21DC8D27F00F425AC /* Secrets.swift */,
+				C3CD5AD41DC8D28900F425AC /* GithubAPIClient.swift */,
+				C3CD5AD61DC8D29900F425AC /* ReposDataStore.swift */,
+				C3CD5AD81DC8D2A200F425AC /* ReposTableViewController.swift */,
+				C3CD5ADC1DC8D2EA00F425AC /* GithubRepository.swift */,
+				C3CD5ADA1DC8D2B900F425AC /* Main.storyboard */,
 				1B15A13A1DC29FA500B15C9F /* Resources */,
 			);
 			path = "swift-github-repo-search-lab";
@@ -137,7 +152,7 @@
 				TargetAttributes = {
 					1BF884A31DBE950C001E9E9B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = KXY9EDFTF5;
+						DevelopmentTeam = ERMR8A7358;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF884B21DBE950C001E9E9B /* LaunchScreen.storyboard in Resources */,
+				C3CD5ADB1DC8D2B900F425AC /* Main.storyboard in Resources */,
 				1B15A13E1DC2A09900B15C9F /* repositories.json in Resources */,
 				1BF884AF1DBE950C001E9E9B /* Assets.xcassets in Resources */,
 				1B15A13D1DC2A09900B15C9F /* not_starred.json in Resources */,
@@ -227,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CD5AD51DC8D28900F425AC /* GithubAPIClient.swift in Sources */,
 				1BF884AA1DBE950C001E9E9B /* ViewController.swift in Sources */,
-				1B15A1391DC29F9D00B15C9F /* Secrets.swift in Sources */,
+				C3CD5AD71DC8D29900F425AC /* ReposDataStore.swift in Sources */,
+				C3CD5AD31DC8D27F00F425AC /* Secrets.swift in Sources */,
 				1BF884A81DBE950C001E9E9B /* AppDelegate.swift in Sources */,
+				C3CD5ADD1DC8D2EA00F425AC /* GithubRepository.swift in Sources */,
+				C3CD5AD91DC8D2A200F425AC /* ReposTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +285,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -315,6 +336,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -344,8 +366,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06179FC97D4CCA9AF9531AF7 /* Pods-swift-github-repo-search-lab.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = ERMR8A7358;
 				INFOPLIST_FILE = "swift-github-repo-search-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FlatironSchool.WeatherAnimations.swift-github-repo-search-lab";
@@ -358,8 +381,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA7C84CC2EF21A27A02CA364 /* Pods-swift-github-repo-search-lab.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = ERMR8A7358;
 				INFOPLIST_FILE = "swift-github-repo-search-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FlatironSchool.WeatherAnimations.swift-github-repo-search-lab";
